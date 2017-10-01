@@ -1,6 +1,7 @@
 ![Calligraphy.js](assets/logo3.png)
 ____________________
 
+# Calligraphy.js
 
 Calligraphy.js is a lightweight JavaScript class that allows you to render text in an animated fashion in the font of your choice, giving them the appearance of hand written calligraphy. You can configure the text to have a color, font, font size, animation type and more to achieve a beautiful handwritten animated text effect in your website.
 
@@ -48,4 +49,4 @@ The Calligraphy constructor asks for 3 parameters:
 |`duration`  | integer  | Animation duration, in frames. [Default: `200`] |
 |`delay`     | integer  | Time between the drawing of first and last path, in frames (only for `delayed` animations). |
 
-# Calligraphy.js
+
