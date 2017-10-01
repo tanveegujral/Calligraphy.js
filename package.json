@@ -1,6 +1,6 @@
 {
 	"name": "calligraphy.js",
-	"version": "1.0.4",
+	"version": "1.0.0",
 	"description": "Animate your text to handwritten form",
 	"main": "index.js",
 	"scripts": {

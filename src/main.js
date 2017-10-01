@@ -1,13 +1,13 @@
 var opentype = require('opentype.js'),
 	defaultParams = {
 		inputString: 'Hello',
-		parentElement: 'my-div',
-		fontType: '1',
+		parentElement: 'div',
+		fontFile: './node_modules/calligraphy.js/fonts/1.otf',
 		fontSize: 105,
-		fontColor: 'Yellow',
+		fontColor: 'Black',
 		animationType: 'oneByOne',
 		duration: 0.5,
-		delay: 2
+		delay: 0
 	},
 	init = function init(inputString, parentElement, options) {
 		Object.assign(defaultParams, { inputString: inputString }, { parentElement: parentElement }, options);
@@ -24,7 +24,7 @@ var opentype = require('opentype.js'),
 			' version="1.1" xmlns="http://www.w3.org/2000/svg" id="handwriting_svg"></svg>';
 	},
 	generateSvg = function generateSvg() {
-		opentype.load('/fonts/' + defaultParams.fontType + '.otf', function(err, font) {
+		opentype.load(defaultParams.fontFile, function(err, font) {
 			if (err) {
 				alert('Font could not be loaded: ' + err);
 			} else {
