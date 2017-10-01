@@ -6,7 +6,9 @@ ____________________
 Calligraphy.js is a lightweight JavaScript class that allows you to render text in an animated fashion in the font of your choice, giving them the appearance of hand written calligraphy. You can configure the text to have a color, font, font size, animation type and more to achieve a beautiful handwritten animated text effect in your website.
 
 Available Via:
+* [Bower](https://bower.io/search/) `bower install calligraphy.js`
 * [NPM](https://www.npmjs.com/package/calligraphy.js): `npm install calligraphy.js`
+
 
 ## Principles
 
@@ -23,7 +25,7 @@ npm install calligraphy.js --save
 ```
 
 ```html
-<script type='text/js' src='node_modules/calligraphy.js/index.js'></script>
+<script type='text/js' src='/bower_components/calligraphy.js/index.js'></script>
 <div id='my-div'></div>
 <script>
     new Calligraphy('Hello World', '#my-div');

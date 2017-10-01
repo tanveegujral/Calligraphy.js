@@ -6771,7 +6771,7 @@ var opentype = __webpack_require__(25),
 	defaultParams = {
 		inputString: 'Hello',
 		parentElement: 'div',
-		fontFile: './node_modules/calligraphy.js/fonts/1.otf',
+		fontFile: './bower_components/calligraphy.js/fonts/1.otf',
 		fontSize: 105,
 		fontColor: 'Black',
 		animationType: 'oneByOne',

@@ -1,0 +1,25 @@
+{
+  "name": "calligraphy.js",
+  "description": "Animate your text to handwritten form",
+  "main": "index.js",
+  "authors": [
+    "Tanvee Gujral <gujraltanvee238@gmail.com> (http://tanveegujral.github.io/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "svg",
+    "animation",
+    "calligraphy",
+    "style",
+    "transition",
+    "fonts"
+  ],
+  "homepage": "https://github.com/tanveegujral/Calligraphy.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

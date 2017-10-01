@@ -2,7 +2,7 @@ var opentype = require('opentype.js'),
 	defaultParams = {
 		inputString: 'Hello',
 		parentElement: 'div',
-		fontFile: './node_modules/calligraphy.js/fonts/1.otf',
+		fontFile: './bower_components/calligraphy.js/fonts/1.otf',
 		fontSize: 105,
 		fontColor: 'Black',
 		animationType: 'oneByOne',
